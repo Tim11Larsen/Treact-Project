@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-    padding: 96px 0;
+    padding: 80px 0;
 }
 
 
@@ -185,7 +185,7 @@ header .row {
 }
 
 .header__description {
-    width: 45%;
+    width: 40%;
 }
 
 .header__img--wrapper {
@@ -276,8 +276,7 @@ header .row {
 .features {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
-    margin: 40px 30px;
+    margin: 40px 60px;
 }
 
 .feature {
@@ -286,7 +285,7 @@ header .row {
 
 .feature__row {
     display: flex;
-      
+    margin: 12px 0;
 }
 
 .feature__img--wrapper {
@@ -313,4 +312,118 @@ header .row {
     line-height: 2;
     max-width: 200px;
     color: #7c8ba1;
+}
+
+/* quality */
+
+#quality .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quality .btn {
+    margin-top: 24px;
+}
+
+.quality__description {
+width:50%;
+}
+
+.quality__img--wrapper {
+    width: 50%;
+    margin-left: 36px;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 4px;
+}
+
+/* steps */
+
+#steps .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.steps__img--wrapper {
+    width: 50%; 
+    display: flex;
+}
+
+.steps__description {
+    width: 50%;
+    padding: 32px 64px;
+    padding-left: 64px;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+.step__number {
+    font-size: 40px;
+    font-weight: 500;
+    color: #d4d5d6;
+    margin-right: 24px;
+}
+
+.step__title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #243e63;
+    margin-bottom: 8px;
+}
+
+.step__para {
+    line-height: 1.75;
+    color: #7c8ba1;
+}
+
+/* values */
+
+#values .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#values .section__title {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+#values .btn {
+  margin-top: 48px;
+}
+.value {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.values__description {
+  padding: 32px 64px 32px 0;
+}
+.values__description,
+.values__img {
+  width: 50%;
+}
+.values__list {
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  max-width: none;
+  flex-direction: row;
+}
+
+.value__title {
+  display: flex;
+  align-items: center;
+}
+.value__img {
+  width: 20px;
+  height: 20px;
 }
