@@ -1,3 +1,5 @@
+console.log("JavaScript is working!");
+
 function openMenu() {
   document.body.classList += " menu--open";
 }
