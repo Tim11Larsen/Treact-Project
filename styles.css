@@ -1178,6 +1178,16 @@ footer {
 
 @media (max-width:788px){
 
+    h1 {
+        font-size: 36px;
+    }
+
+ 
+
+    .section__title {
+        font-size: 36px;
+    }
+
     .nav__links {
     display: none;
   }
@@ -1190,24 +1200,45 @@ footer {
   }
 
   .feature {
-    width: calc(100%/1);
+    width: 100%;
     justify-content: center;
+  }
+
+  .features {
+    margin: 6px 0px
+  }
+
+  .feature__img--wrapper {
+    width: 12px;
+    height: 12px;
+    margin-right: 12px;
+    padding: 18px;
   }
 
   #quality .row {
     flex-direction: column;
   }
 
+  .quality__description {
+    width: 100%;
+  }
+
   .quality__img--wrapper {
     margin-top: 36px;
+    width: 100%;
   }
 
   #steps .row {
     flex-direction: column;
   }
 
+  .steps__description {
+    width: 100%;
+  }
+
   .steps__img--wrapper {
     margin-top: 54px;
+    width: 100%;
   }
 
   #values .row {
@@ -1222,8 +1253,13 @@ footer {
     flex-direction: column-reverse;
   }
 
+  .values__description {
+    width: 100%;
+  }
+
   .values__img--wrapper {
     margin-top: 12px;
+    width: 100%;
   }
 
  #testimonials .row {
@@ -1231,6 +1267,22 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+ }
+
+ .testimonial__img--wrapper {
+    width:100%;
+ }
+
+ .testimonials {
+    width: 100%;
+ }
+
+ .testimonial__bottom {
+    flex-wrap: wrap;
+ }
+
+ .testimonial__btn--container {
+    margin-top: 18px;
  }
 
  .start__row {
@@ -1242,7 +1294,6 @@ footer {
     width:auto;
     padding: 22px;
     margin: 0 24px;
-
  }
 
  .start__btn--contact,
@@ -1264,4 +1315,48 @@ footer {
  .start__divider {
     min-width: 12px;
  }
+
+ .header__description {
+    width: 100%;
+ }
+
+ .header__img--wrapper {
+    width: 100%;
+ }
+
+ .footer__text {
+    text-align: center;
+ }
+
+ .footer__social--btn {
+    margin: 4px;
+ }
+
+ .footer__column {
+    margin: 6px 6px;
+ }
+}
+
+/* small phones */
+
+@media (max-width:475px) {
+
+.button__container {   
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer__top {
+    flex-wrap: wrap;
+}
+
+.footer__logo {
+    position: relative;
+}
+
+.footer__text {
+    position: absolute;
+    top: 600px;
+}
+
 }
